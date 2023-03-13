@@ -22,6 +22,7 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine($"Общее кол-во осадков = {summ}");
+            Console.ReadLine();
         }
     }
 }
