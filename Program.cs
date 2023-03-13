@@ -62,14 +62,14 @@ namespace ConsoleApp1
 
             int[] array = new int[6];
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++) // Последовательно
             {
                 Console.Write($"array[{i}] = ");
                 array[i] = int.Parse(Console.ReadLine());
             }
 
-            for (int i = array.Length-1; i >= 0; i--)
-            {
+            for (int i = array.Length-1; i >= 0; i--) //    Обратно
+                {
                 Console.WriteLine($"array[{i}] = {array[i]}");
 
             }
